@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevEK.Business", "src\DevEK.Business\DevEK.Business.csproj", "{C9BD259D-A5F9-45EF-B7AC-62F8A2BCA548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevEK.Data", "src\DevEK.Data\DevEK.Data.csproj", "{D33194BC-3B61-4764-8C26-DDBF2A4E1286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevEK.Api", "src\DevEK.Api\DevEK.Api.csproj", "{E0F85970-CBEC-4A46-9411-232F66B9AFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9BD259D-A5F9-45EF-B7AC-62F8A2BCA548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BD259D-A5F9-45EF-B7AC-62F8A2BCA548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BD259D-A5F9-45EF-B7AC-62F8A2BCA548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BD259D-A5F9-45EF-B7AC-62F8A2BCA548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33194BC-3B61-4764-8C26-DDBF2A4E1286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33194BC-3B61-4764-8C26-DDBF2A4E1286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33194BC-3B61-4764-8C26-DDBF2A4E1286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33194BC-3B61-4764-8C26-DDBF2A4E1286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F85970-CBEC-4A46-9411-232F66B9AFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F85970-CBEC-4A46-9411-232F66B9AFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F85970-CBEC-4A46-9411-232F66B9AFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F85970-CBEC-4A46-9411-232F66B9AFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/DevEK.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/DevEK.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/DevEK.Api.csproj",
+        "projectName": "DevEK.Api",
+        "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/DevEK.Api.csproj",
+        "packagesPath": "/Users/ekluczkovski/.nuget/packages/",
+        "outputPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ekluczkovski/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj": {
+                "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj"
+              },
+              "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/DevEK.Data.csproj": {
+                "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/DevEK.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj",
+        "projectName": "DevEK.Business",
+        "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj",
+        "packagesPath": "/Users/ekluczkovski/.nuget/packages/",
+        "outputPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ekluczkovski/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/DevEK.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/DevEK.Data.csproj",
+        "projectName": "DevEK.Data",
+        "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/DevEK.Data.csproj",
+        "packagesPath": "/Users/ekluczkovski/.nuget/packages/",
+        "outputPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ekluczkovski/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj": {
+                "projectPath": "/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Business/DevEK.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
