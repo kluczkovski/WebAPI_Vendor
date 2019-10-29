@@ -1,16 +1,42 @@
 ﻿<Properties StartupConfiguration="{E0F85970-CBEC-4A46-9411-232F66B9AFA0}|Default">
-  <MonoDevelop.Ide.ItemProperties.DevEK.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DevEK.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevEK.Business/Services/VendorService.cs">
+    <Files>
+      <File FileName="src/DevEK.Api/Startup.cs" Line="1" Column="1" />
+      <File FileName="src/DevEK.Api/Controllers/MainController.cs" Line="35" Column="1" />
+      <File FileName="src/DevEK.Business/Interfaces/INotify.cs" Line="17" Column="1" />
+      <File FileName="src/DevEK.Business/Notifications/Notify.cs" Line="30" Column="1" />
+      <File FileName="src/DevEK.Business/Notifications/Notification.cs" Line="1" Column="1" />
+      <File FileName="src/DevEK.Api/Controllers/VendorsController.cs" Line="119" Column="38" />
+      <File FileName="src/DevEK.Business/Services/VendorService.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebAPI_Vendor" selected="True" />
+          <Node name="WebAPI_Vendor" expanded="True">
+            <Node name="DevEK.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="DevEK.Business" expanded="True">
+              <Node name="Notifications" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="VendorService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ekluczkovski/Projects/WebAPI_Vendor/WebAPI_Vendor/src/DevEK.Api/Controllers/VendorsController.cs" relfile="src/DevEK.Api/Controllers/VendorsController.cs" line="128" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

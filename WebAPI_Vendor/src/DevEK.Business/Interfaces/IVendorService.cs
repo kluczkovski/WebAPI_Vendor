@@ -6,11 +6,11 @@ namespace DevEK.Business.Services
 {
     public interface IVendorService : IDisposable
     {
-        Task Add(Vendor vendor);
+        Task<bool> Add(Vendor vendor);
 
-        Task Update(Vendor vendor);
+        Task<bool> Update(Vendor vendor);
 
-        Task Remove(Guid id);
+        Task<bool> Remove(Guid id);
 
         Task UpdateAddress(Address address);
 

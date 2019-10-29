@@ -19,42 +19,54 @@ namespace DevEK.Business.Services
             _addressRepository = addressRepository;
         }
 
-        public async Task Add(Vendor vendor)
+        public async Task<bool> Add(Vendor vendor)
         {
             if (!RunValidation(new VendorValidation(), vendor)
-                || !RunValidation(new AddressValidation(), vendor.Address)) return;
+                || !RunValidation(new AddressValidation(), vendor.Address)) return false;
 
             if (_vendorRepository.Search(v => v.IdentifiyDocument == vendor.IdentifiyDocument).Result.Any())
             {
                 Notification("Identify Document already exits for another Vendor!.");
-                return;
+                return false ;
             }
 
             await _vendorRepository.Insert(vendor);
+            return true;
         }
 
      
-        public async Task Remove(Guid id)
+        public async Task<bool> Remove(Guid id)
         {
             if (_vendorRepository.GetVendorProducsAddress(id).Result.Products.Any())
             {
                 Notification("The Vendor has Products linked to its");
-                return;
+                return false;
             }
+
+            var vendor = await _vendorRepository.GetVendorAddress(id);
+
+            var address = await _addressRepository.GetById(vendor.Address.Id);
+            if (address != null)
+            {
+                await _addressRepository.Delete(vendor.Address.Id);
+            }
+
             await _vendorRepository.Delete(id);
+            return true;
         }
 
-        public async Task Update(Vendor vendor)
+        public async Task<bool> Update(Vendor vendor)
         {
-            if (!RunValidation(new VendorValidation(), vendor)) return;
+            if (!RunValidation(new VendorValidation(), vendor)) return false;
 
             if (_vendorRepository.Search(v => v.IdentifiyDocument == vendor.IdentifiyDocument && v.Id != vendor.Id).Result.Any())
             {
                 Notification("Identify Document already exits for another Vendor!.");
-                return;
+                return false;
             }
 
             await _vendorRepository.Update(vendor);
+            return true;
         }
 
         public async Task UpdateAddress(Address address)
